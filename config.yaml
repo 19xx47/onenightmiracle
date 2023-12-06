@@ -1,0 +1,12 @@
+path: /Users/worakanlasudee/Documents/offix
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Keypoints
+kpt_shape: [15, 3]  # [number of keypoints, number of dim]
+flip_idx: [0, 1, 2, 3,4,5,6,7,8,9,10,12,11,14,13]  # flip keypoint index
+
+# Classes
+names:
+  0: Warning
+  1: Normal
